@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="App2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="imageElement1" Stretch="Uniform"  Margin="433,0,10,245" />
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="126,335,0,0" TextWrapping="Wrap" Text="10.168.62.132" VerticalAlignment="Top" RenderTransformOrigin="-0.789,-9.5" Height="20" Width="150"/>
+        <Button x:Name="goButton" Content="go" HorizontalAlignment="Left" Margin="159,32,0,0" VerticalAlignment="Top" Width="90" Click="goButton_Click" IsEnabled="True" Height="48" FontWeight="Bold" FontSize="18"/>
+        <Button x:Name="stopButton" Content="stop" HorizontalAlignment="Left" Margin="159,131,0,0" VerticalAlignment="Top" Width="90" Click="stopButton_Click" IsEnabled="True" Height="48" FontWeight="Bold" FontSize="18"/>
+        <Button x:Name="leftButton" Content="left" HorizontalAlignment="Left" Margin="31,133,0,0" VerticalAlignment="Top" Width="90" Click="leftButton_Click" IsEnabled="True" Height="48" FontSize="18" FontWeight="Bold"/>
+        <Button x:Name="rightButton" Content="right" HorizontalAlignment="Left" Margin="302,133,0,0" VerticalAlignment="Top" Width="90" Click="rightButton_Click" IsEnabled="True" Height="48" FontWeight="Bold" FontSize="18"/>
+        <Button x:Name="backButton" Content="back" HorizontalAlignment="Left" Margin="159,219,0,0" VerticalAlignment="Top" Width="90" Click="backButton_Click" IsEnabled="True" Height="48" FontWeight="Bold" FontSize="18"/>
+        <Button x:Name="button" Content="Connect" HorizontalAlignment="Left" Margin="302,335,0,0" VerticalAlignment="Top" Width="90" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="31,341,0,0" TextWrapping="Wrap" Text="CarIPaddress" VerticalAlignment="Top" RenderTransformOrigin="0.403,0.65" Height="32" Width="90"/>
+    </Grid>
+</Page>
